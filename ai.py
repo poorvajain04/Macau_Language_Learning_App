@@ -225,7 +225,7 @@ Example:
 
     return json.loads(response.choices[0].message.content)
 whisper_model = WhisperModel(
-    "small",
+    "tiny",
     device="cpu",
     compute_type="int8"
 )
